@@ -287,6 +287,7 @@ class TagInput<T> extends React.PureComponent<Props<T>, State> {
                   ref={this.tagInputRef}
                   blurOnSubmit={false}
                   onKeyPress={this.onKeyPress}
+                  multiline
                   value={this.props.text}
                   style={[styles.textInput, {
                     width: this.state.inputWidth,
